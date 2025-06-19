@@ -8,7 +8,7 @@ function App() {
   const putData = () =>{
   set(ref(db, 'users/abhi'), {
     id: 1,
-    name: "bhoomi",
+    name: "abhishek",
     age: 23,
   });
 };
